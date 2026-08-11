@@ -1,0 +1,8 @@
+﻿feat(env): add multi-environment configuration, common env, ApiService, components and docs
+
+- Created common.environment.ts and environment.{ts,staging,prod}.ts with shared endpoints and per-env overrides
+- Added AppConfig, ApiService and example components (EnvironmentInfo, ApiUsageExample)
+- Wired Bootstrap 5 and PrimeNG styles; updated angular.json, tsconfig.json and package.json scripts/deps
+- Added usage guide and environment setup documentation
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
