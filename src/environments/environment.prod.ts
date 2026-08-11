@@ -1,23 +1,16 @@
 import { commonEnvironment } from './common.environment';
+import type { Environment } from './environment.model';
 
-export const environment = {
+export const environment: Environment = {
   production: true,
   env: 'production',
-  apiBaseUrl: 'https://api.yourapp.com',
-  
-  // Extend common environment
+  domainName: 'https://www.ayuva.com',
+  apiBaseUrl: 'https://api.ayuva.com',
+
   ...commonEnvironment,
-  
-  // Override common URLs for production
-  url1: 'https://api.yourapp.com',
-  url2: 'https://cdn.yourapp.com',
-  url3: 'https://auth.yourapp.com',
-  
-  // Override feature flags for production
-  features: {
-    ...commonEnvironment.features,
-    enableLogging: false,
-    enableDebugInfo: false,
-    enableAnalytics: true
-  }
+
+  // Override URLs for production
+  url1: 'https://api.ayuva.com',
+  url2: 'https://cdn.ayuva.com',
+  url3: 'https://auth.ayuva.com'
 };

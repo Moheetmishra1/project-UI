@@ -1,31 +1,18 @@
 import { environment } from '../environments/environment';
+import type { Environment } from '../environments/environment.model';
 
-export const AppConfig = {
-  environment: environment.env,
+/**
+ * AppConfig is a typed, flat snapshot of the current environment.
+ * Use this as the single source of truth for environment values throughout the app.
+ */
+export const AppConfig: Environment = {
   production: environment.production,
+  env: environment.env,
+  domainName: environment.domainName,
   apiBaseUrl: environment.apiBaseUrl,
-  apiEndpoints: environment.apiEndpoints,
-  
-  // Custom URLs
-  url1: environment.url1,
-  url2: environment.url2,
-  url3: environment.url3,
-  
-  // Common configuration
   appName: environment.appName,
   appVersion: environment.appVersion,
-  
-  // Feature flags
-  features: environment.features,
-  
-  // API timeouts (in milliseconds)
-  apiTimeout: environment.apiTimeout,
-  apiRetryAttempts: environment.apiRetryAttempts,
-  apiRetryDelay: environment.apiRetryDelay,
-  
-  // Cache configuration
-  cache: environment.cache,
-  
-  // Pagination
-  pagination: environment.pagination
+  url1: environment.url1,
+  url2: environment.url2,
+  url3: environment.url3
 };

@@ -163,6 +163,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular/cdk@npm:^22.0.0":
+  version: 22.1.1
+  resolution: "@angular/cdk@npm:22.1.1"
+  dependencies:
+    parse5: "npm:^8.0.0"
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    "@angular/common": ^22.0.0 || ^23.0.0
+    "@angular/core": ^22.0.0 || ^23.0.0
+    "@angular/platform-browser": ^22.0.0 || ^23.0.0
+    rxjs: ^6.5.3 || ^7.4.0
+  checksum: 10c0/a36147e4c58d39f43eddc66214da27ef3cc10eb93089a3b45bcccdc2a19bed5054b769b1238329fa6e9ff6ea56271e795a622d8331cf5bb0c95f28c31d97b1dc
+  languageName: node
+  linkType: hard
+
 "@angular/cli@npm:^22.1.3":
   version: 22.1.3
   resolution: "@angular/cli@npm:22.1.3"
@@ -1483,6 +1498,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@noble/ed25519@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@noble/ed25519@npm:2.3.0"
+  checksum: 10c0/5ecbb66bdf4f1376002711e6ee4acb0db1d5dc62bd1543d45135b772e5296d72db0d03228d3b1da5c662240520369d5d8d4846e128a50bc789b316d0a228a6c1
+  languageName: node
+  linkType: hard
+
+"@noble/hashes@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@noble/hashes@npm:2.2.0"
+  checksum: 10c0/cad8630c504d6b9271984f685cd0af9101b40988fc2dfbe17ccdf068a9941f95cc5c9957d89e9ca4b7ca94c15cb35f93510c5d53a09fbcc83ee503b93d0a1034
+  languageName: node
+  linkType: hard
+
 "@oxc-parser/binding-android-arm-eabi@npm:0.142.0":
   version: 0.142.0
   resolution: "@oxc-parser/binding-android-arm-eabi@npm:0.142.0"
@@ -1793,6 +1822,73 @@ __metadata:
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: 10c0/4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
+  languageName: node
+  linkType: hard
+
+"@primeicons/angular@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@primeicons/angular@npm:8.0.0"
+  dependencies:
+    "@primeicons/core": "npm:8.0.0"
+    "@primeuix/utils": "npm:^0.8.0"
+    tslib: "npm:^2"
+  peerDependencies:
+    "@angular/core": ">=21"
+  checksum: 10c0/0cb1db937d3a0f066cb984a60c7bc8d4e15b60f5cb25babd3bc48bf170f0ea6b450aeef869685e41a81efc4660d49ab9c86b48d104f407e5d28318d3b2041686
+  languageName: node
+  linkType: hard
+
+"@primeicons/core@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@primeicons/core@npm:8.0.0"
+  dependencies:
+    "@primeuix/utils": "npm:^0.8.0"
+  checksum: 10c0/8a817d1f186ae32d39e3a1ac04db7e649f4d041c1356e8aba3851325bd9a070d351eb94fd8fbc35c8fdb5c6ff16c1caf38a2fcf6c3b0a1dae13a7136368ac9f1
+  languageName: node
+  linkType: hard
+
+"@primeui/license-manager@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@primeui/license-manager@npm:1.0.0"
+  dependencies:
+    "@noble/ed25519": "npm:2.3.0"
+    "@noble/hashes": "npm:2.2.0"
+  checksum: 10c0/f3037b162e70950eefdb80774ecff58ea04e21633adca13dcfe83ab5d7443dba978cbf2669973be9e94bcc8912aaf1021e20d8624669aadae02f7b347203ae4b
+  languageName: node
+  linkType: hard
+
+"@primeuix/motion@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@primeuix/motion@npm:1.0.0"
+  dependencies:
+    "@primeuix/utils": "npm:^0.8.0"
+  checksum: 10c0/83adcdb15ab469f0c376ff9ee26777c80d5bf6a045c05f998be9fbafa145f86c8a23df4da3df57444a2f437770436d2bd197a590c94fa4fab8fedb3bfe873fa1
+  languageName: node
+  linkType: hard
+
+"@primeuix/styled@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@primeuix/styled@npm:1.0.0"
+  dependencies:
+    "@primeui/license-manager": "npm:^1.0.0"
+    "@primeuix/utils": "npm:^0.8.0"
+  checksum: 10c0/26fe4d23206738ece2ff5473777d752f3a8d77010928e48d0f945b4ef0656015ab3207c1f8b246b701583de982380e92de8ab85473f3aa05a146df2961233a9b
+  languageName: node
+  linkType: hard
+
+"@primeuix/styles@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@primeuix/styles@npm:3.0.0"
+  dependencies:
+    "@primeuix/styled": "npm:^1.0.0"
+  checksum: 10c0/95f405c3e179e33f4468d8602af5bc1b2728fd4708df1e67f4d04354468dc513b84f2fc33d79c13d0c321cb13633350f74b9c6845da26956ac5592aaf508623e
+  languageName: node
+  linkType: hard
+
+"@primeuix/utils@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@primeuix/utils@npm:0.8.1"
+  checksum: 10c0/f8d90254e774a9b5fd8815687da652ab300a59bf6a6a23dd43db40ea6728d55043ec703c9cad8563b164bc30528c7a9393dd9e2b314d9f70064b5566113c4725
   languageName: node
   linkType: hard
 
@@ -2383,6 +2479,7 @@ __metadata:
   dependencies:
     "@angular/animations": "npm:^22.1.0"
     "@angular/build": "npm:^22.1.3"
+    "@angular/cdk": "npm:^22.0.0"
     "@angular/cli": "npm:^22.1.3"
     "@angular/common": "npm:^22.1.0"
     "@angular/compiler": "npm:^22.1.0"
@@ -2396,13 +2493,12 @@ __metadata:
     bootstrap: "npm:^5.3.3"
     jsdom: "npm:^28.0.0"
     prettier: "npm:^3.8.1"
-    primeicons: "npm:^6.0.1"
-    primeng: "npm:^17.8.0"
+    primeicons: "npm:^8.0.0"
+    primeng: "npm:^22.0.0"
     rxjs: "npm:~7.8.0"
     tslib: "npm:^2.3.0"
     typescript: "npm:~6.0.2"
     vitest: "npm:^4.0.8"
-    zone.js: "npm:~0.14.0"
   languageName: unknown
   linkType: soft
 
@@ -4316,25 +4412,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"primeicons@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "primeicons@npm:6.0.1"
-  checksum: 10c0/9f59473d9b7f3b5aad1a3c7050fce8c06503f21586a67d3ed1fd362a9fad42a114c89b6e0f8fd7c94d71d090962b53181a086fe07a68a5535fa348fdbf63e641
+"primeicons@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "primeicons@npm:8.0.0"
+  checksum: 10c0/24081ba8766ac14dbcfd5c24e04898a7c5b6163042ee62581fd63da70e0c663854cde0c6e4922c579e7f11b676c08a4eb5847c7bf5bceb640156b1aa92f6c367
   languageName: node
   linkType: hard
 
-"primeng@npm:^17.8.0":
-  version: 17.18.15
-  resolution: "primeng@npm:17.18.15"
+"primeng@npm:^22.0.0":
+  version: 22.0.0
+  resolution: "primeng@npm:22.0.0"
   dependencies:
+    "@primeicons/angular": "npm:^8.0.0"
+    "@primeui/license-manager": "npm:^1.0.0"
+    "@primeuix/motion": "npm:^1.0.0"
+    "@primeuix/styled": "npm:^1.0.0"
+    "@primeuix/styles": "npm:^3.0.0"
+    "@primeuix/utils": "npm:^0.8.0"
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": ^17.0.0 || ^18.0.0
-    "@angular/core": ^17.0.0 || ^18.0.0
-    "@angular/forms": ^17.0.0 || ^18.0.0
+    "@angular/cdk": ^22.0.0
+    "@angular/common": ^22.0.0
+    "@angular/core": ^22.0.0
+    "@angular/forms": ^22.0.0
+    "@angular/platform-browser": ^22.0.0
+    "@angular/router": ^22.0.0
     rxjs: ^6.0.0 || ^7.8.1
-    zone.js: ~0.14.0
-  checksum: 10c0/fc9d6e9a72b8771b603b9340a3a56b974c812d1069f504b58f66b009ed2353b33c79167eda9417a90c4f75101d6aee536515431ebab77b354fa702c1cc47043e
+  checksum: 10c0/ddf28e9fdcc5e365cd29afe2ae9509ccaafda784d46c063541dee38ccbc99e7a589148e6bf9b912c21276305ec1fe41c175f68370f8c964079b8d84fcd70da48
   languageName: node
   linkType: hard
 
@@ -4995,7 +5099,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
+"tslib@npm:^2, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
@@ -5460,12 +5564,5 @@ __metadata:
   version: 4.4.3
   resolution: "zod@npm:4.4.3"
   checksum: 10c0/7ea31b558e88f9faf44f31dd185e2e1cbf51fed3081787fb96cc2534749b50c0acfc6da7f0922a7353ed092dd358c7d50c28ea96c94d04af64191bd33152eca3
-  languageName: node
-  linkType: hard
-
-"zone.js@npm:~0.14.0":
-  version: 0.14.10
-  resolution: "zone.js@npm:0.14.10"
-  checksum: 10c0/61283d152cb1eff899bae61621dccd572aa9f47e0c60c04b249bf86b43e3e4ba627bf6dba371b725023a4f302f39e554d7bf2d25bbf40c869c6c52f774b17e8b
   languageName: node
   linkType: hard

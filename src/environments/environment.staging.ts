@@ -1,23 +1,16 @@
 import { commonEnvironment } from './common.environment';
+import type { Environment } from './environment.model';
 
-export const environment = {
+export const environment: Environment = {
   production: false,
   env: 'staging',
-  apiBaseUrl: 'https://staging-api.yourapp.com',
-  
-  // Extend common environment
+  domainName: 'https://staging.ayuva.com',
+  apiBaseUrl: 'https://staging-api.ayuva.com',
+
   ...commonEnvironment,
-  
-  // Override common URLs for staging
-  url1: 'https://staging-api.yourapp.com',
-  url2: 'https://staging-cdn.yourapp.com',
-  url3: 'https://staging-auth.yourapp.com',
-  
-  // Override feature flags for staging
-  features: {
-    ...commonEnvironment.features,
-    enableLogging: true,
-    enableDebugInfo: false,
-    enableAnalytics: true
-  }
+
+  // Override URLs for staging
+  url1: 'https://staging-api.ayuva.com',
+  url2: 'https://staging-cdn.ayuva.com',
+  url3: 'https://staging-auth.ayuva.com'
 };
